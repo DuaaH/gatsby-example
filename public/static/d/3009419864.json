@@ -1,0 +1,1 @@
+{"errors":[{"message":"request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com","locations":[{"line":3,"column":5}],"path":["github","repository"]}],"data":{"github":{"repository":null}}}
