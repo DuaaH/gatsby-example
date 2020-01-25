@@ -46,7 +46,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
       component: recipeTemplate,
       path: `/recipe/${recipe.title[0]}`,
       context: {
-        title: recipe.title
+        recipe
       }
     })
   });
